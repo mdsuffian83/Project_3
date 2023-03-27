@@ -1,15 +1,63 @@
+
+# **_WATTANAMASON_**
+
+## Group Members
 Jared
-Greg Doggo
-Greg Corgi
+Greg
+Faizal
+Suffian
 
-31f031a272ed45148d5dfc506ec228b89945fc47
- Suffian
+# **Project Background**
 
-f2b8521adb996c9a84097e53fd378a6153fce563
-f2b8521adb996c9a84097e53fd378a6153fce563
-suffian-12345
-suffian-678
-suffian-8910
-suffian-11121314
-suffian15161718
-suffian19202122
+# **Project Description**
+
+# **Timeframe**
+
+
+
+# **Deployment** 
+
+
+# **Technologies Utilized**
+
+- HTML
+- Javascript
+- CSS (Bootstrap)
+- EJS
+- Express (Backend)
+- Bcrypt for Hashing
+- Mongoose Validation & Joi for Front-end/Back-end Validation
+- Chart.js for Data Visualization
+- MongoDB (Database)
+- Git for Version Control
+- Window Powershell for Command Line Prompt
+
+
+# **Wireframe Sketch & User Story**
+## Wireframe Sketches
+
+
+## Users' Stories
+
+| As a ...  | I want ...  | Feature | Status
+| :-------- |:------------|:---------|:---------
+
+# **Development Timeline and Approach**
+
+
+| Achievables | Duration |
+| :--- | :----------- |
+
+
+## **Model:**
+
+## **View:**
+
+## **Controller:**
+
+
+# **Key Takeaways**
+
+# **Future Works**
+
+
