@@ -4,7 +4,7 @@ import * as userService from '../../../utils/users-service';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import classNames from 'classnames';
 import CheckBox from './Checkbox';
-
+import betterLifeLogo from '../../assets/images/UI/3.png';
 export default function CustomNavBar({
   user,
   setUser,
@@ -35,11 +35,7 @@ export default function CustomNavBar({
       // bg={themeName}
       variant={'dark'}>
       <Navbar.Brand title="Better Life" className="d-block d-lg-none">
-        <img
-          src="../../assets/images/UI/3.png"
-          alt="BetterLife"
-          className="bl-logo"
-        />
+        <img src={betterLifeLogo} alt="BetterLife" className="bl-logo" />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll" />
       {user && <Navbar.Brand>{welcomeMessage}</Navbar.Brand>}
