@@ -35,7 +35,11 @@ export default function CustomNavBar({
       // bg={themeName}
       variant={'dark'}>
       <Navbar.Brand title="Better Life" className="d-block d-lg-none">
-        <img src="../../../images/UI/3.png" alt="BetterLife" className="bl-logo" />
+        <img
+          src="../../assets/images/UI/3.png"
+          alt="BetterLife"
+          className="bl-logo"
+        />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll" />
       {user && <Navbar.Brand>{welcomeMessage}</Navbar.Brand>}
