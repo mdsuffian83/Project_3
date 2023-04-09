@@ -5,8 +5,8 @@ const {
   getLocationById,
   // updateLocation,
   // deleteLocation,
-} = require('../controllers/mapController');
-const protect = require('../utils/middleware/authMiddleware')
+} = require('./controllers/mapController');
+const protect = require('./utils/middleware/authMiddleware');
 
 const router = express.Router();
 
