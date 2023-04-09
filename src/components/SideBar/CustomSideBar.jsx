@@ -1,5 +1,5 @@
 import SidebarMenu from 'react-bootstrap-sidebar-menu';
-import betterLifeLogo from '../../assets/images/UI/3.png';
+import betterLifeLogo from '/assets/images/UI/3.png';
 export default function CustomSideBar({
   exclusiveExpand,
   collapseOnSelect,
@@ -27,7 +27,11 @@ export default function CustomSideBar({
               href="/"
               className="text-decoration-none"
               style={{ color: 'inherit' }}>
-              <img src={betterLifeLogo} alt="BetterLife" className="bl-logo" />
+              <img
+                src={'/assets/images/UI/3.png'}
+                alt="BetterLife"
+                className="bl-logo"
+              />
             </a>
           </SidebarMenu.Brand>
           <SidebarMenu.Toggle />
